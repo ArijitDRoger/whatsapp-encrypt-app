@@ -107,6 +107,7 @@ body {
 .result-area {
   margin-top: 20px;
   background-color: #e9ecef;
+  color: black;
   padding: 15px;
   border-radius: 4px;
   text-align: left;

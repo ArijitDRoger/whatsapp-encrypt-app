@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import CryptoJS from "crypto-js";
 import "./App.css"; // We'll create this later for basic styling
 
-//U2FsdGVkX1+Ux37PF/SxthgC99pMOMw2vR0Jx1coduU=
-
 function App() {
   const [message, setMessage] = useState("");
   const [password, setPassword] = useState("");
@@ -120,6 +118,7 @@ Encrypted: ${encryptedMessage}
             <div className="result-area">
               <h3>Encrypted Message:</h3>
               <textarea
+                style={{ color: "black" }}
                 value={encryptedMessage}
                 readOnly
                 rows="4"
